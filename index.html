@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirigiendo...</title>
   <script>
-    // Redirige automáticamente a otra página
-    window.location.href = "index.php";
+    setTimeout(function() {
+      window.location.href = "index.php";
+    }, 0); // 0 milisegundos para redirigir al instante
   </script>
 </head>
 <body>
-  <p>Redirigiendo...x</p>
+  <p>Si no redirige automáticamente, haz clic <a href="otra_pagina.html">aquí</a>.</p>
 </body>
 </html>
